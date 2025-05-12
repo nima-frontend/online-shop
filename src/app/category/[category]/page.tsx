@@ -35,7 +35,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
 export async function generateStaticParams() {
   const uniqueCategories = Array.from(new Set(mockProducts.map((p) => p.category)));
-  return uniqueCategories.map((category) => ({
-    category: encodeURIComponent(category),
-  }));
+return uniqueCategories.map((category) => ({
+  category, 
+}));
 }
