@@ -1,0 +1,280 @@
+import { ProductProps } from "@/types/product";
+
+export const mockProducts: ProductProps[] =  [
+    {
+        id: '1',
+        category:'انگشتر',
+        name:'رینگ جواهری تک نگین',
+        slug:'رینگ-جواهری-تک-نگین',
+        images: ['/imagesDb/ring/ring_01.jpeg','/imagesDb/ring/ring_02.jpeg','/imagesDb/ring/ring_03.jpeg','/imagesDb/ring/ring_04.jpeg'],
+        options:{model:['انگشتر']},
+        price:199,
+        discountPrice:null,
+        description:'بدون ریزش نگین'
+    },
+    {
+        id: '2',
+        category:'انگشتر',
+        name:'انگشتر دم وال نگین',
+        slug:'انگشتر-دم-وال-نگین',
+        images: ['/imagesDb/ring/ring_11.jpeg','/imagesDb/ring/ring_12.jpeg'],
+        options:{model:['انگشتر']},
+        price:200,
+        discountPrice:null,
+        description:'ضد حساسیت'
+    },
+    {
+        id: '3',
+        category:'انگشتر',
+        name:'رینگ',
+        slug:'رینگ',
+        images: ['/imagesDb/ring/ring_21.jpeg','/imagesDb/ring/ring_22.jpeg'],
+        options:{model:['طلایی','نقره ای']},
+        price:15,
+        discountPrice:null,
+        description:'رنگ ثابت'
+    },
+    {
+        id: '4',
+        category:'انگشتر',
+        name:'انگشتر پروانه فری سایز',
+        slug:'انگشتر-پروانه-فری-سایز',
+        images: ['/imagesDb/ring/ring_31.jpeg','/imagesDb/ring/ring_32.jpeg'],
+        options:{model:['پروانه','خاویاری']},
+        price:199,
+        discountPrice:139,
+        description:'اب نقره شده ضد حساسیته و سایز ۷.۸ ساپورت میکنه'
+    },
+    {
+        id: '5',
+        category:'دستبند',
+        name:'دستبند میخ',
+        slug:'دستبند-میخ',
+        images: ['/imagesDb/wristband/wristband_01.jpeg','/imagesDb/wristband/wristband_02.jpeg','/imagesDb/wristband/wristband_03.jpeg','/imagesDb/wristband/wristband_04.jpeg'],
+        options:{model:['دستبند میخ طلایی','دستبند میخ نقره ای']},
+        price:279,
+        discountPrice:null,
+        description:'ضد حساسبت ضمانتی هیچ وقت رنگش نمیره'
+    },
+    {
+        id: '6',
+        category:'دستبند',
+        name:'دستبند استیل ۲ تخفیفی',
+        slug:'دستبند-استیل-تخفیفی',
+        images: ['/imagesDb/wristband/wristband_11.jpeg'],
+        options:{model:['مدل 1 طلایی','مدل 2','مدل 3']},
+        price:69,
+        discountPrice:null,
+        description:'ضد حساسیت'
+    },
+    {
+        id: '7',
+        category:'دستبند',
+        name:'دستبندای زنجیری ژوپینگ',
+        slug:'دستبندای-زنجیری-ژوپینگ',
+        images: ['/imagesDb/wristband/wristband_21.jpeg','/imagesDb/wristband/wristband_22.jpeg','/imagesDb/wristband/wristband_23.jpeg','/imagesDb/wristband/wristband_24.jpeg'],
+        options:{model:['مدل 2','مدل 3']},
+        price:209,
+        discountPrice:179,
+        description:'برند ژوپینگ به ضد حساسبت و رنگ ثابت بودن عمریشون معروفه'
+    },
+    {
+        id: '8',
+        category:'دستبند',
+        name:'دستبند پروانه‌ها',
+        slug:'دستبند-پروانه‌ها',
+        images: ['/imagesDb/wristband/wristband_31.jpeg','/imagesDb/wristband/wristband_32.jpeg','/imagesDb/wristband/wristband_33.jpeg','/imagesDb/wristband/wristband_34.jpeg'],
+        options:{model:['بنگل 3 پروانه','دستبند تنیسی','دستبند دولاین']},
+        price:299,
+        discountPrice:250,
+        description:'استیل ضد حساسبت رنگ ثابت ضمانتی'
+    },
+    {
+        id: '9',
+        category:'دستبند',
+        name:'دستبند کارتیر ونکلیف',
+        slug:'دستبند-کارتیر-ونکلیف',
+        images: ['/imagesDb/wristband/wristband_41.jpeg','/imagesDb/wristband/wristband_42.jpeg','/imagesDb/wristband/wristband_43.jpeg'],
+        options:{model:['دستبند']},
+        price:299,
+        discountPrice:null,
+        description:'برند ysx'
+    },
+    {
+        id: '10',
+        category:'گردنبند',
+        name:'ست قلب و شمشیر همراه با باکس',
+        slug:'ست-قلب-و-شمشیر-همراه-با-باکس',
+        images: ['/imagesDb/necklace/necklace_01.jpeg','/imagesDb/necklace/necklace_02.jpeg','/imagesDb/necklace/necklace_03.jpeg','/imagesDb/necklace/necklace_04.jpeg'],
+        options:{model:['باکس گل معطر','ست قلب و شمشیر']},
+        price:550,
+        discountPrice:399,
+        description:'باکس همراه با بگ هستش'
+    },
+    {
+        id: '11',
+        category:'گردنبند',
+        name:'نیم ست جواهری',
+        slug:'نیم-ست-جواهری',
+        images: ['/imagesDb/necklace/necklace_11.jpeg','/imagesDb/necklace/necklace_12.jpeg','/imagesDb/necklace/necklace_13.jpeg','/imagesDb/necklace/necklace_14.jpeg'],
+        options:{model:['مدل 1','مدل 2','مدل 3']},
+        price:399,
+        discountPrice:250,
+        description:'مناسب مهمونی'
+    },
+    {
+        id: '12',
+        category:'گردنبند',
+        name:'ست سفید برفی',
+        slug:'ست-سفید-برفی',
+        images: ['/imagesDb/necklace/necklace_21.jpeg','/imagesDb/necklace/necklace_22.jpeg'],
+        options:{model:['ست با زنجیر ساده','ست با زنجیر ماری']},
+        price:250,
+        discountPrice:188,
+        description:'پلاک ها نگین مخراج ضد حساسیت'
+    },
+    {
+        id: '13',
+        category:'گردنبند',
+        name:'گردنبند برگ ظریف',
+        slug:'گردنبند-برگ-ظریف',
+        images: ['/imagesDb/necklace/necklace_31.jpeg','/imagesDb/necklace/necklace_32.jpeg'],
+        options:{model:['گردنبند']},
+        price:229,
+        discountPrice:179,
+        description:'استیل نگین مخراج ضد حساسیت رنگ ثابت'
+    },
+    {
+        id: '14',
+        category:'گوشواره',
+        name:'گوشواره تدی تخفیفی',
+        slug:'گوشواره-تدی-تخفیفی',
+        images: ['/imagesDb/earings/earings_01.jpeg'],
+        options:{model:['مدل 3','مدل 4']},
+        price:75,
+        discountPrice:null,
+        description:'روی کار جیره ‌خیلی بامزس'
+    },
+    {
+        id: '15',
+        category:'گوشواره',
+        name:'گوشواره ژوپینگ کارتیر',
+        slug:'گوشواره-ژوپینگ-کارتیر',
+        images: ['/imagesDb/earings/earings_11.jpeg','/imagesDb/earings/earings_12.jpeg','/imagesDb/earings/earings_13.jpeg','/imagesDb/earings/earings_14.jpeg',],
+        options:{model:['نقره ای','طلایی']},
+        price:119,
+        discountPrice:null,
+        description:'کاملا رنگ ثابت مناسب استفاد‌ه روز مره'
+    },
+    {
+        id: '16',
+        category:'گوشواره',
+        name:'گوشوار ژوپینگ رولکسی',
+        slug:'گوشوار-ژوپینگ-رولکسی',
+        images: ['/imagesDb/earings/earings_21.jpeg'],
+        options:{model:['گوشواره']},
+        price:159,
+        discountPrice:null,
+        description:'ی کار استیل مادام العمر'
+    },
+    {
+        id: '17',
+        category:'گوشواره',
+        name:'گوشواره اشکی',
+        slug:'گوشواره-اشکی',
+        images: ['/imagesDb/earings/earings_31.jpeg','/imagesDb/earings/earings_32.jpeg','/imagesDb/earings/earings_33.jpeg'],
+        options:{model:['طلایی بزرگ','نقره ای بزرگ','نقره ای متوسط']},
+        price:99,
+        discountPrice:null,
+        description:'بدنه ابکاری رادیوم ضد حساسیت'
+    },
+    {
+        id: '18',
+        category:'پک',
+        name:'پک آغوش خط',
+        slug:'پک-آغوش-خط',
+        images: ['/imagesDb/ringPack/ringPack_01.jpeg','/imagesDb/ringPack/ringPack_02.jpeg',],
+        options:{model:['انگشتر']},
+        price:188,
+        discountPrice:null,
+        description:'چندتا دونش فیری سایزه'
+    },
+    {
+        id: '19',
+        category:'پک',
+        name:'پک ۴پروانه',
+        slug:'پک-پروانه',
+        images: ['/imagesDb/ringPack/ringPack_11.jpeg','/imagesDb/ringPack/ringPack_12.jpeg'],
+        options:{model:['نقره ای','طلایی']},
+        price:169,
+        discountPrice:null,
+        description:'ضد حساسیت'
+    },
+    {
+        id: '20',
+        category:'ست',
+        name:'ست امگا سفید',
+        slug:'ست-امگا-سفید',
+        images: ['/imagesDb/jwerleySet/jwerleySet_01.jpeg'],
+        options:{model:['ساعت امگا','دستبند تنیسی مربع']},
+        price:650,
+        discountPrice:null,
+        description:'پشت کار و روی قفل ساعت حک استیل و حک امگا شده'
+    },
+    {
+        id: '21',
+        category:'ست',
+        name:'ست طلایی مستطیل کیفیت بالا',
+        slug:'ست-طلایی-مستطیل-کیفیت-بالا',
+        images: ['/imagesDb/jwerleySet/jwerleySet_11.jpeg','/imagesDb/jwerleySet/jwerleySet_12.jpeg'],
+        options:{model:['ساعت','تنیسی مارشال']},
+        price:1450,
+        discountPrice:1150,
+        description:'بنگل تیفانی ضد حساسیت ضد اب رنگ ثابت'
+    },
+    {
+        id: '22',
+        category:'ساعت',
+        name:'کاسیو اولد مانی نقره‌ای',
+        slug:'کاسیو-اولد-مانی-نقره‌ای',
+        images: ['/imagesDb/watch/watch_01.jpeg','/imagesDb/watch/watch_02.jpeg'],
+        options:{model:['ساعت کاسیو کوچک','بنگل میخ استیل']},
+        price:599,
+        discountPrice:null,
+        description:'دسته رگلاژی ضد حساسیت'
+    },
+    {
+        id: '23',
+        category:'ساعت',
+        name:'ست بولگاری سفید',
+        slug:'ست-بولگاری-سفید',
+        images: ['/imagesDb/watch/watch_11.jpeg','/imagesDb/watch/watch_12.jpeg'],
+        options:{model:['ساعت','بنگل گوی دیید یورمن']},
+        price:650,
+        discountPrice:599,
+        description:'ساعت بولگاری وارداتی از برندno'
+    },
+    {
+        id: '24',
+        category:'ساعت',
+        name:'اولد مانی نقره ای طوسی',
+        slug:'اولد-مانی-نقره-ای-طوسی',
+        images: ['/imagesDb/watch/watch_21.jpeg'],
+        options:{model:['ساعت']},
+        price:599,
+        discountPrice:null,
+        description:'بندکرکره ای'
+    },
+    {
+        id: '25',
+        category:'ساعت',
+        name:'ساعت اولد مانی چری',
+        slug:'ساعت-اولد-مانی-چری',
+        images: ['/imagesDb/watch/watch_31.jpeg','/imagesDb/watch/watch_32.jpeg'],
+        options:{model:['ساعت زنانه','دستبند تنیسی قفل کتابی']},
+        price:599,
+        discountPrice:null,
+        description:'دارای تاریخ شمار'
+    },
+
+]
