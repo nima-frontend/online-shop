@@ -1,6 +1,6 @@
 # Online shop
 
-A real-time based online shop built with Next.js, TypeScript, and Mui.
+A real-time based online shop built with Next.js, TypeScript, and MUI.
 
 ## Click the Link for Demo 
 
