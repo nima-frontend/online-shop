@@ -17,3 +17,7 @@ This project is built using next.js, it's based on existing website and is only 
 - MUI components
 - Tailwind CSS
 - Zustand(for state management)
+
+## Visuals
+
+![Image](https://github.com/user-attachments/assets/ade759db-bafb-4441-8923-9e797a0a4737)
