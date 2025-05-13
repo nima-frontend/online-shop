@@ -19,9 +19,10 @@ This project is built using next.js, it's based on existing website and is only 
 - Zustand(for state management)
 
 ## Visuals
-  
+  <div style="max-width: 300px; background-color: #f9f9f9; border-radius: 10px; padding: 10px; border: 1px solid #ddd;">
 ![Image](https://github.com/user-attachments/assets/ade759db-bafb-4441-8923-9e797a0a4737)
 <br>
 ![Image](https://github.com/user-attachments/assets/df9c1a6a-3d67-4284-bcbc-d1a4bcc84d77)
 <br>
 ![Image](https://github.com/user-attachments/assets/079889df-f84a-4fb6-bbf0-c8a5f4d96c0a)
+  </div>
