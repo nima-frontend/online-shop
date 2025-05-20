@@ -60,12 +60,12 @@ export default function PayoutPage(){
                     <span className="md:hidden">تعداد:</span>
                     <div className="flex items-center gap-2">
                       <div className="flex items-center gap-2 border p-1 rounded border-gray-200">
-                      <Plus size={16}  
+                      <Plus size={20}  
                       onClick={() => increaseQuantity(item.id, item.option)}/>
                       <span>{item.quantity}</span>
-                      <Minus size={16} onClick={()=>decreaseQuantity(item.id,item.option)} />
+                      <Minus size={20} onClick={()=>decreaseQuantity(item.id,item.option)} />
                       </div>
-                      <Trash2 size={16} onClick={()=>{removeItem(item.id,item.option);
+                      <Trash2 size={20} onClick={()=>{removeItem(item.id,item.option);
                         alert('محصول از سبد خرید شما حذف شد')}}
                          />
                     </div>
